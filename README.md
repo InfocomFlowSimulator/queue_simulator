@@ -1,8 +1,8 @@
 # Datacenter Transport and Flow Completion Metrics
 
-This repository contains code to reproduce simulation in the INFOCOM 2018 submission "Datacenter Transport and Flow Completion Metrics".
+This repository contains the code to reproduce the experimental evaluation in the INFOCOM 2018 submission "Datacenter Transport and Flow Completion Metrics".
 
-Simulation are based on code of YAPS simulator(https://github.com/NetSys/simulator)
+Evaluations are based on the YAPS simulator(https://github.com/NetSys/simulator).
 
 ## Run and compile: 
 
