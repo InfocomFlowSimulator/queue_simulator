@@ -9,7 +9,7 @@ Simulation are based on code of YAPS simulator(https://github.com/NetSys/simulat
 `CXX=g++-5 cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-std=c++14"` then `make`. To simulate all algorithms copy target `simulator` to `runner/` and run `python run_experiments.py`.
 
 
-## Parameters modification
+## Parameters modification:
 To run different experiments modify different params in `run_expriments.py`:
 
 * `big_switch: 0 ? 1` - pfabric-topology or big-switch topology
@@ -19,7 +19,7 @@ To run different experiments modify different params in `run_expriments.py`:
 
 Range for `comr` corresponds to variation of compression and range for `split_mode` corresponds to variation of flow intensity. 
 
-## Experiment detailss
+## Experiment details:
 
 In experiments with variation of compression we fix `split_mode = 5` and select range for `comr = [1, 10]`. 
 
