@@ -6,7 +6,7 @@ Simulation are based on code of YAPS simulator(https://github.com/NetSys/simulat
 
 ## Run and compile: 
 
-`CXX=g++-5 cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-std=c++14"` then `make`. To simulate all algorithms copy target `simulator` to `runner/` and run `python run_experiments.py`.
+`CXX=g++-5 cmake . -DCMAKE_BUILD_TYPE=Release -DCMAKE_CXX_FLAGS="-std=c++14"` then `make`. To simulate all algorithms copy target `simulator` to `runner/` and run `python run_experiments.py`.
 
 
 ## Parameters modification:
